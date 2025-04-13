@@ -31,18 +31,22 @@ class HackerOneAPI(API):
         """
         results = []
         params = {
-            'page[size]': 100
+            'page[size]': 100,
+            'page[number]':1
         }
-
+        currEndpoint =endpoint
+        # response_json = self.get(currEndpoint, params=params)
+        # results.append(response_json)
         while True:
-            response_json = self.get(endpoint, params=params)
+            response_json = self.get(currEndpoint, params=params)
             results.append(response_json)
 
             if 'next' in response_json['links']:
-                endpoint = response_json['links']['next']
+                currEndpoint = response_json['links']['next']
+                params['page[number]'] +=1 
             else:
                 break
-
+        print('paginate end')
         return results
 
     def program_info(self, scope: str) -> dict:
@@ -55,11 +59,13 @@ class HackerOneAPI(API):
         Returns:
             dict: A dictionary representing the response JSON for scope information.
         """
+        print('program_info start')
         data = []
         for structured_scope in self.paginate(f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"):
             if 'data' in structured_scope:
                 data.extend(structured_scope['data'])
-
+        
+        print('program_info end')
         return {"relationships": {"structured_scopes": {"data": data}}}
 
     def brief(self, results: dict) -> dict:
