@@ -194,30 +194,31 @@ def main():
     # Retrieve API credentials from environment variables
     hackerone_username = os.environ.get('HACKERONE_USERNAME')
     hackerone_token = os.environ.get('HACKERONE_TOKEN')
-    intigriti_token = os.environ.get('INTIGRITI_TOKEN')
+    # intigriti_token = os.environ.get('INTIGRITI_TOKEN')
 
     # Validate and exit if credentials are missing
-    if not all([hackerone_username, hackerone_token, intigriti_token]):
+    # if not all([hackerone_username, hackerone_token, intigriti_token]):
+    if not all([hackerone_username, hackerone_token]):
         raise SystemExit('Please provide the required API credentials.')
 
     # Initialize API instances
     hackerone_api = HackerOneAPI(username=hackerone_username, token=hackerone_token)
-    intigriti_api = IntigritiAPI(intigriti_token)
     bugcrowd_api  = BugcrowdAPI()
-    yeswehack_api = YesWeHackAPI()
+    # intigriti_api = IntigritiAPI(intigriti_token)
+    # yeswehack_api = YesWeHackAPI()
 
     # Initialize PublicPrograms instances for each platform
     public_programs_hackerone = PublicPrograms(api=hackerone_api)
-    public_programs_intigriti = PublicPrograms(api=intigriti_api)
     public_programs_bugcrowd  = PublicPrograms(api=bugcrowd_api)
-    public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
+    # public_programs_intigriti = PublicPrograms(api=intigriti_api)
+    # public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
 
     # Gather program information from multiple platforms sequentially
     with concurrent.futures.ThreadPoolExecutor() as executor:
         executor.submit(public_programs_bugcrowd.get_bugcrowd_programs)
         executor.submit(public_programs_hackerone.get_hackerone_programs)
-        executor.submit(public_programs_intigriti.get_intigriti_programs)
-        executor.submit(public_programs_yeswehack.get_yeswehack_programs)
+        # executor.submit(public_programs_intigriti.get_intigriti_programs)
+        # executor.submit(public_programs_yeswehack.get_yeswehack_programs)
 
     logging.info("Programs crawled successfully.")
 
