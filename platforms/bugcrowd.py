@@ -28,7 +28,7 @@ class BugcrowdAPI(API):
         else:
             return item
 
-    def paginate(self, endpoint: str) -> List[dict]:
+    def paginate(self, endpoint: str,category_key:str) -> List[dict]:
         """
         Retrieve all paginated results from the given API endpoint.
 
@@ -39,7 +39,7 @@ class BugcrowdAPI(API):
             List[dict]: A list of dictionaries representing the response JSON for each page.
         """
         results = []
-        params = {'page': 1}
+        params = {'category':category_key,'page': 1}
         while True:
             response_json = self.get(endpoint, params=params)
             results.append(response_json)

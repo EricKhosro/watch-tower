@@ -82,8 +82,8 @@ class PublicPrograms:
         }
 
         for category, category_key in categories.items():
-            endpoint = f'{self.api.base_url}/engagements.json?category={category_key}'
-            for response in self.api.paginate(endpoint):
+            endpoint = f'{self.api.base_url}/engagements.json'
+            for response in self.api.paginate(endpoint,category_key):
                 for engagement in response.get('engagements', []):
                     engagement['category'] = category
                     self.results.append(engagement)

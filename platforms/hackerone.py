@@ -65,7 +65,6 @@ class HackerOneAPI(API):
             if 'data' in structured_scope:
                 data.extend(structured_scope['data'])
         
-        print('program_info end')
         return {"relationships": {"structured_scopes": {"data": data}}}
 
     def brief(self, results: dict) -> dict:
