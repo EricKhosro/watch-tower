@@ -46,7 +46,6 @@ class HackerOneAPI(API):
                 params['page[number]'] +=1 
             else:
                 break
-        print('paginate end')
         return results
 
     def program_info(self, scope: str) -> dict:
@@ -59,7 +58,6 @@ class HackerOneAPI(API):
         Returns:
             dict: A dictionary representing the response JSON for scope information.
         """
-        print('program_info start')
         data = []
         for structured_scope in self.paginate(f"{self.base_url}/v1/hackers/programs/{scope}/structured_scopes"):
             if 'data' in structured_scope:
