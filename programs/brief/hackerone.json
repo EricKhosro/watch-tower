@@ -9667,7 +9667,7 @@
     {
         "handle": "localizejs",
         "bounty": 1,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
@@ -74997,10 +74997,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "https://efilepay.idr.iowa.gov",
-                    "type": "URL"
-                },
-                {
                     "identifier": "newacctadmin.lnbok.com",
                     "type": "URL"
                 },
@@ -75949,23 +75945,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dpdcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "dupecu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "easternkyfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "eastpointeccu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "eastriverfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -75982,10 +75966,6 @@
                 },
                 {
                     "identifier": "ecsefcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ecustacu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76026,14 +76006,6 @@
                 },
                 {
                     "identifier": "epbecu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "etcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "evergladesfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76329,10 +76301,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "eastpointeccu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "eckerdcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -76358,10 +76326,6 @@
                 },
                 {
                     "identifier": "encentusfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "etcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -78526,10 +78490,6 @@
                 },
                 {
                     "identifier": "http://cert.pacu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ecu.memberspreferred.org-dr",
                     "type": "URL"
                 },
                 {
@@ -81241,10 +81201,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://ess.firstdataeservices.com/cre/",
-                    "type": "URL"
-                },
-                {
                     "identifier": "accounts.firstdata.com",
                     "type": "URL"
                 },
@@ -81273,19 +81229,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dev-zionsbanksales.firstdata.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "developer.firstdata.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "discover.emea.3ds.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "east-reports.firstdata.com",
                     "type": "URL"
                 },
                 {
@@ -81825,15 +81773,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dev-west-administer.businesstrack.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "dev-west-api.businesstrack.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dev-west-manage.businesstrack.com",
                     "type": "URL"
                 },
                 {
@@ -81846,10 +81786,6 @@
                 },
                 {
                     "identifier": "east-accounts.businesstrack.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "east-administer.businesstrack.com",
                     "type": "URL"
                 },
                 {
@@ -83241,10 +83177,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dev-test-studio.marketplace.fiserv.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "myems.emspay.eu",
                     "type": "URL"
                 },
@@ -84601,14 +84533,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://ebillconsole-cert.getbills.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://ebillconsole.getbills.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://hv.getbills.com",
                     "type": "URL"
                 },
@@ -85497,10 +85421,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "drinlane.checkfreepay.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "drinlaneservice.checkfreepay.com",
                     "type": "URL"
                 },
@@ -86089,10 +86009,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "directenergy.clienttestmatrix.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "dominion.clienttestmatrix.com",
                     "type": "URL"
                 },
@@ -86205,14 +86121,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "farmersandmerchantsbk.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fairmountstatebank.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "evermorebankfl.com",
                     "type": "URL"
                 },
@@ -86221,15 +86129,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "equitablebank.net",
-                    "type": "URL"
-                },
-                {
                     "identifier": "epremierbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "enterprise.bank",
                     "type": "URL"
                 },
                 {
@@ -86241,23 +86141,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "eaglesavings.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "eagle-bank.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "eagleexpressfcu.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "e-fnb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dwb.bank",
                     "type": "URL"
                 },
                 {
@@ -86270,10 +86158,6 @@
                 },
                 {
                     "identifier": "dnbanks.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dfdfcu.com",
                     "type": "URL"
                 },
                 {
@@ -86470,50 +86354,6 @@
                 },
                 {
                     "identifier": "bankpacificwest.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dfdfcu.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dominionbanking.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "easterninternationalbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "enterprisebankomaha.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "esolutions.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fairmountstatebank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fasecu.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fbmilton.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fcb4u.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fcbbanks.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fcbcarolinas.fiserv-ecomhosting.com",
                     "type": "URL"
                 },
                 {
@@ -86778,10 +86618,6 @@
                 },
                 {
                     "identifier": "fbt.bank",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fcb4u.com",
                     "type": "URL"
                 },
                 {
@@ -88485,10 +88321,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://dr2.secureinternetbank.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://dr3.secureinternetbank.com",
                     "type": "URL"
                 },
@@ -88726,22 +88558,6 @@
                 },
                 {
                     "identifier": "webdesign.fiserv.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://djefcu.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://egefcu.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fca.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fccuburt.online-cu.com",
                     "type": "URL"
                 },
                 {
@@ -90589,19 +90405,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dpdcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "elginstatebankia.vbwebservices.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "emcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "enterprisecu.vbwebservices.com",
                     "type": "URL"
                 },
                 {
@@ -91090,10 +90898,6 @@
                 },
                 {
                     "identifier": "dpdcu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "elginstatebankia.com",
                     "type": "URL"
                 },
                 {
@@ -92421,10 +92225,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fcbtexas.caaweb.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "ffbla.caaweb.com",
                     "type": "URL"
                 },
@@ -92706,14 +92506,6 @@
                 },
                 {
                     "identifier": "corning.wfg-baweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "disney.wfg-baweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "exelon.wfg-baweb.com",
                     "type": "URL"
                 },
                 {
@@ -97985,6 +97777,10 @@
                     "type": "URL"
                 },
                 {
+                    "identifier": "unitedenergycu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
                     "identifier": "advancefcu-uat.streamlendvelocity.net",
                     "type": "URL"
                 },
@@ -98118,14 +97914,6 @@
                 },
                 {
                     "identifier": "elementsfcu.streamlendvelocity.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fairfax-uat.streamlendvelocity.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fairfax.streamlendvelocity.net",
                     "type": "URL"
                 },
                 {
@@ -99865,10 +99653,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dnaweb.opensolutionsasp.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "1fsb-admin.originate.fiservapps.com",
                     "type": "URL"
                 },
@@ -99890,18 +99674,6 @@
                 },
                 {
                     "identifier": "cashtechiq-corpoint.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "digitaldisbursements-cert.api.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "digitaldisbursements-uat.api.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "digitaldisbursements.api.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -100178,10 +99950,6 @@
                 },
                 {
                     "identifier": "http://mftuat.merchantportal.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fdglcustomercare.firstdata.com",
                     "type": "URL"
                 },
                 {
@@ -101209,18 +100977,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "ebas-btat2.onefiserv.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ebas-cert.onefiserv.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ebas.onefiserv.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "convera.wfg-baweb.com",
                     "type": "URL"
                 },
@@ -101537,10 +101293,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "edisoncu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "ew22fcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -101626,10 +101378,6 @@
                 },
                 {
                     "identifier": "dixiecupfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "edisoncu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -102361,18 +102109,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://dr-enotify.firstdisputes.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://enotify.firstdisputes.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://dr-fraudmanagement.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://fraudmanagement.firstdataclients.com",
                     "type": "URL"
                 },
@@ -102398,46 +102134,6 @@
                 },
                 {
                     "identifier": "http://dmmv2prodz.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drdmmv2prodb.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drdmmv2prodc.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drdmmv2prode.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drdmmv2prodn.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drdmmv2prodz.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drrulesv2prodb.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drrulesv2prodc.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drrulesv2prode.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drrulesv2prodn.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://drrulesv2prodz.firstdataclients.com",
                     "type": "URL"
                 },
                 {
@@ -102606,22 +102302,6 @@
                 },
                 {
                     "identifier": "http://brazosbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://ebankstarbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://elginstatebankia.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://farmersbankks.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://farmersstatebankwa.onlinesecurebanking.com",
                     "type": "URL"
                 },
                 {
@@ -103229,10 +102909,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://ess.firstdataeservices.com/clientreporting/",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://secureemail.hepsiian.com",
                     "type": "URL"
                 },
@@ -103793,10 +103469,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://falcontest.firstdata.com.ar",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://www3.firstdata.com.ar",
                     "type": "URL"
                 },
@@ -104261,10 +103933,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://ebill.onefiserv.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://huntington-corpoint.fiservapps.com",
                     "type": "URL"
                 },
@@ -104302,6 +103970,10 @@
                 },
                 {
                     "identifier": "http://mo.accessadvantage.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "http://billpayenrollcert.vystarcu.org",
                     "type": "URL"
                 },
                 {
@@ -104518,14 +104190,6 @@
                 },
                 {
                     "identifier": "http://dime.onlinebank.com-dr",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://dollarbank-architect.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://dollarbank-architect-cert.fiservmobileapps.com",
                     "type": "URL"
                 },
                 {
@@ -106453,10 +106117,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dpdcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fcfcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -107993,10 +107653,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "eu-ssowp.fiservapp.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "in-ssoca.fiservapp.com",
                     "type": "URL"
                 },
@@ -109213,14 +108869,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "dit-emerchantpay-boarding.technologi.co.uk",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dit-emerchantpay-configuration.technologi.co.uk",
-                    "type": "URL"
-                },
-                {
                     "identifier": "cat-tyl-boarding.technologi.co.uk",
                     "type": "URL"
                 },
@@ -109270,10 +108918,6 @@
                 },
                 {
                     "identifier": "uat-b2bservice-boa.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "dsmwrfla3nav69.secureaps.com",
                     "type": "URL"
                 },
                 {
@@ -113089,10 +112733,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "e-creditunion.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "1stsecuritydl.configure-cert.fiservapps.com",
                     "type": "URL"
                 },
@@ -114629,6 +114269,10 @@
                     "type": "URL"
                 },
                 {
+                    "identifier": "boh.olbanking.com",
+                    "type": "URL"
+                },
+                {
                     "identifier": "broadwaycert.olbanking.com",
                     "type": "URL"
                 },
@@ -115178,10 +114822,6 @@
                 },
                 {
                     "identifier": "webhooks-perf.snappayglobal.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "exceed.fdmobileservices.com",
                     "type": "URL"
                 },
                 {
@@ -116383,6 +116023,422 @@
                 {
                     "identifier": "bankofidaho.caaweb.com",
                     "type": "URL"
+                },
+                {
+                    "identifier": "bankofidaho.onlinebank.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankofoceancity.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankofoceancity-admin.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankofutah.caaweb.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankorient.apps-uat.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankorient-cs.apps-uat.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankorient-di.apps-uat.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankri.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankunited.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankunitedcert-cc.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankuniteduat-cc.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankvista.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankvista-admin.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankwithbos.onlinebank.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bankwithpioneer.onlinebank.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bannerbank.icm-uat.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bannerfcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "barberitos.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "baskinrobbins.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "basspro.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bayatlanticfcu.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bayatlanticfcu-admin.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "baybankgb.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "baybankgb-admin.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bbamericasbank.streamlendvelocity.net",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bbamericasbank-uat.streamlendvelocity.net",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bbncu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bc-mc.cuyyewbp7yfmpiaeq73yuj6le.s.blockchainnodeengine.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bcmc.test2.3ds.firstdata.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "beachmunicipal-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "beacon.cuyyewbp7yfmpiaeq73yuj6le.s.blockchainnodeengine.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "beaconfcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bedandbreakfast.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "beneficialstatebankuat.caaweb.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "benihana.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "benihanastore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "be-notifi-ui.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bentobox-frontend-nonprod-radware.bentopreprod.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bentobox-frontend-prod-radware.getbento.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bergdorfgoodman.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bergdorfgoodmanstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bestbuymexico.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bestcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bestrewardfcu-cs.apps.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bestrewardfcu-cs.apps-uat.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bhcefcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "billdetail-prod.getbills.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "billerpayapi.gslb2.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "billerwebui.gslb2.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bk.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blackriflecoffee.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blimpie.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blimpiestore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blockbuster.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blockbusterstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bloominbrands.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bloominbrandsstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bluechipfcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blueflamecu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blueridge.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "blueridge-admin.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bmsfcu.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bmsfcu-admin.originate.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bnb.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bndcert.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bobevansstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "boh-cc.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bohcert-cc.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bonefish.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bonefishstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "boonebank.apps.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "boonebank-cs.apps.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "boonebank-di.apps.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bose.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bostonbowl.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bostonmarket.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bostonmarketstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "boulderdam.apps-uat.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "boulderdam-cs.apps-uat.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bpfcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "branding5.secureinternetbank.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brcpefcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brfdfcu-dc.cert.fec-dc.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brinker.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brinkerb2b.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brinkerstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "broadway.icm.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "broadway.icm-uat.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "broadwaycert-temp.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "broadwaytwo-internal-tools.apps-dev.ilendx.tech",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brooklinebank.olbanking.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "brooklyndumplingshop.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bsc-billerpayapi.gslb2.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bsc-billerpayapi-waf.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "btat2-payments-exchange-rtp.fiservapps.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bucadibeppo.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bucadibeppostore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "buckle.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bucklestore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "buffalowildwings.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "buffalowildwingsstore.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "burgerking.wgiftcard.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "businessbanking.techcu.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "butterfieldmerchant.oneportal24.com",
+                    "type": "URL"
                 }
             ],
             "out_of_scope": [
@@ -116520,10 +116576,6 @@
                 },
                 {
                     "identifier": "svsus-wgiftcard.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "boh.olbanking.com",
                     "type": "URL"
                 }
             ]
@@ -145711,6 +145763,10 @@
                 {
                     "identifier": "esgpro.fidelity.com",
                     "type": "URL"
+                },
+                {
+                    "identifier": "supplier.fidelity.com",
+                    "type": "URL"
                 }
             ]
         }
@@ -166341,6 +166397,44 @@
                     "type": "URL"
                 }
             ]
+        }
+    },
+    {
+        "handle": "recreation_gov_vdp",
+        "bounty": 0,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "manage.recreation.gov",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "recreation.gov",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "www.recreation.gov",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "cdn.recreation.gov",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "manage-cdn.recreation.gov",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "com.bah.r1s",
+                    "type": "APPLE_STORE_APP_ID"
+                },
+                {
+                    "identifier": "com.bah.r1smobile",
+                    "type": "GOOGLE_PLAY_APP_ID"
+                }
+            ],
+            "out_of_scope": []
         }
     },
     {
