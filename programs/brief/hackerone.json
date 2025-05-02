@@ -11110,7 +11110,7 @@
     {
         "handle": "parrot_sec",
         "bounty": 0,
-        "active": 0,
+        "active": 1,
         "assets": {
             "in_scope": [
                 {
@@ -15560,16 +15560,8 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "https://github.com/smartcontractkit/chainlink",
-                    "type": "SMART_CONTRACT"
-                },
-                {
                     "identifier": "chain.link",
                     "type": "URL"
-                },
-                {
-                    "identifier": "https://github.com/smartcontractkit/chainlink/tree/master/contracts",
-                    "type": "SMART_CONTRACT"
                 },
                 {
                     "identifier": "Faucets",
@@ -15586,9 +15578,25 @@
                 {
                     "identifier": "https://github.com/smartcontractkit/external-adapters-js/",
                     "type": "SOURCE_CODE"
+                },
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink-evm/tree/develop/contracts",
+                    "type": "SMART_CONTRACT"
+                },
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink-solana/tree/develop/contracts",
+                    "type": "SMART_CONTRACT"
+                },
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink",
+                    "type": "SOURCE_CODE"
                 }
             ],
             "out_of_scope": [
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink",
+                    "type": "SMART_CONTRACT"
+                },
                 {
                     "identifier": "create.smartcontract.com",
                     "type": "URL"
@@ -15604,6 +15612,10 @@
                 {
                     "identifier": "Intercom",
                     "type": "OTHER"
+                },
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink/tree/master/contracts",
+                    "type": "SMART_CONTRACT"
                 },
                 {
                     "identifier": "https://github.com/smartcontractkit/chainlink/tree/master/tools",
@@ -15632,6 +15644,14 @@
                 {
                     "identifier": "blog.chain.link",
                     "type": "URL"
+                },
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink-evm/tree/develop/contracts/.../dev",
+                    "type": "SMART_CONTRACT"
+                },
+                {
+                    "identifier": "https://github.com/smartcontractkit/chainlink-solana/tree/develop/contracts/.../dev",
+                    "type": "SMART_CONTRACT"
                 }
             ]
         }
@@ -17351,10 +17371,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "bookus.expediacruises.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "com.expediapartnercentral",
                     "type": "GOOGLE_PLAY_APP_ID"
                 },
@@ -17374,6 +17390,10 @@
                 },
                 {
                     "identifier": "thailand.airasiago.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "bookus.expediacruises.com",
                     "type": "URL"
                 },
                 {
@@ -26457,6 +26477,10 @@
                 {
                     "identifier": "pingu.lichess.ovh",
                     "type": "URL"
+                },
+                {
+                    "identifier": "eight.lichess.ovh",
+                    "type": "URL"
                 }
             ],
             "out_of_scope": []
@@ -35299,6 +35323,10 @@
                 },
                 {
                     "identifier": "jdpsproductdatawstc.deere.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "mstage.tal.deere.com",
                     "type": "URL"
                 }
             ],
@@ -73693,43 +73721,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "https://first-data-prod.apigee.com/edge",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fiserv.dev",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hsbroyal.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "login.lonestarwtx.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "login-abiliti-idemo.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "login-bankofcalhouncounty.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "login-brcbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "login-csbcarroll.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lytlestatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mindenexchange.onlinesecurebanking.com",
                     "type": "URL"
                 },
                 {
@@ -73750,10 +73742,6 @@
                 },
                 {
                     "identifier": "stlandryhomestead.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "libertyutilities.getbills.com",
                     "type": "URL"
                 },
                 {
@@ -74109,10 +74097,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "libertysavingsbank-admin.originate.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "eagleexpress.originate.fiservapps.com",
                     "type": "URL"
                 },
@@ -74129,23 +74113,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "https://www.govone.com/nycefile/Account/logon",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "https://www.govone.com/PADOR/Content/Login.aspx",
-                    "type": "URL"
-                },
-                {
                     "identifier": "https://nysdtf.govone.com/admin/ssoadmin/login",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "https://www.govone.com/nygives/NYGives/ssoNYgives/login",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "https://www.govone.com/nycefile/Admin/AdminLogon",
                     "type": "URL"
                 },
                 {
@@ -74162,10 +74130,6 @@
                 },
                 {
                     "identifier": "https://nysdtf.govone.com/sso/login",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "https://www.govone.com/WaterBill/",
                     "type": "URL"
                 },
                 {
@@ -74221,15 +74185,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "idemo.fiservmw.net",
-                    "type": "URL"
-                },
-                {
                     "identifier": "secureaccess.fiservmw.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fiservmw.net",
                     "type": "URL"
                 },
                 {
@@ -74893,10 +74849,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "memberapplications-admin.cfcua.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "memberapplications-admin.clevepolicecu.com",
                     "type": "URL"
                 },
@@ -74950,14 +74902,6 @@
                 },
                 {
                     "identifier": "memberapplications-admin.firstokfcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fiservdm.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fiservdmdr.net",
                     "type": "URL"
                 },
                 {
@@ -75257,27 +75201,27 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://amex.apac.3ds.firstdata.com",
+                    "identifier": "amex.apac.3ds.firstdata.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://apac.3ds.firstdata.com",
+                    "identifier": "apac.3ds.firstdata.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://discover.apac.3ds.firstdata.com",
+                    "identifier": "discover.apac.3ds.firstdata.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mc.apac.3ds.firstdata.com",
+                    "identifier": "mc.apac.3ds.firstdata.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://visa.apac.3ds.firstdata.com",
+                    "identifier": "visa.apac.3ds.firstdata.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://www4.ipg-online.com",
+                    "identifier": "www4.ipg-online.com",
                     "type": "URL"
                 },
                 {
@@ -76053,10 +75997,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fechoice-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "federalemployeescu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76089,10 +76029,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstcfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstpacecu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76105,19 +76041,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "foodicu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "foothillsfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "forwardfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "foxcredit-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76369,10 +76297,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstcfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstfinancial-dn.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -76390,14 +76314,6 @@
                 },
                 {
                     "identifier": "foothillsfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "foxcredit-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmcreditunion-dn.financial-net.com-dr",
                     "type": "URL"
                 },
                 {
@@ -76433,19 +76349,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fwtpfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "gardenstatefcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "gateschilifcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "geovistacu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76501,10 +76409,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "gsefcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "gtcfcu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76514,14 +76418,6 @@
                 },
                 {
                     "identifier": "hancockfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "harmonyfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://harrisoncountyfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76545,10 +76441,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hccuonline-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hcfcu4u-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76566,10 +76458,6 @@
                 },
                 {
                     "identifier": "ftrandallfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "geovistacu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -76609,10 +76497,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "gsefcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hastingsfcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -76638,10 +76522,6 @@
                 },
                 {
                     "identifier": "heafcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "heartlandfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76673,10 +76553,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hometowncu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "honeywellfcu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76701,10 +76577,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "huefcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "huntingtonbeachcu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76726,10 +76598,6 @@
                 },
                 {
                     "identifier": "ilafcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "independentfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76766,10 +76634,6 @@
                 },
                 {
                     "identifier": "jessopfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "joplinmcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76825,10 +76689,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "kpefcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "ksbcbscu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -76854,10 +76714,6 @@
                 },
                 {
                     "identifier": "lan-faircu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "laneco-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76917,19 +76773,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "lomasverdes-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "louviers-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "lowellmefcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lowlandcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -76966,10 +76814,6 @@
                 },
                 {
                     "identifier": "mbrcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mckeesportbfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -77033,10 +76877,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "heartlandfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hecoefcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -77065,10 +76905,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "independentfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "industrialemployeescu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -77090,10 +76926,6 @@
                 },
                 {
                     "identifier": "jessopfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "joplinmcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -77293,10 +77125,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "midwestcreditunion-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "millstreamcu-dn.financial-net.com",
                     "type": "URL"
                 },
@@ -77306,10 +77134,6 @@
                 },
                 {
                     "identifier": "minutemanfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mmefcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -77342,10 +77166,6 @@
                 },
                 {
                     "identifier": "mpefcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "msufcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -77426,10 +77246,6 @@
                 },
                 {
                     "identifier": "nccu-tn-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "msidemo.firstdata.com",
                     "type": "URL"
                 },
                 {
@@ -79149,14 +78965,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "membermall.navyfederal.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "memberview.navyfederal.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "my.navyfederal.org",
                     "type": "URL"
                 },
@@ -79178,18 +78986,6 @@
                 },
                 {
                     "identifier": "bmoharristest-stg.agg.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iw-risk-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iw-risk-dr.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iw-risk.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -79250,14 +79046,6 @@
                 },
                 {
                     "identifier": "jira.pclender.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "jira.uat.pclender.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "missionimpossible.dev.pclender.com",
                     "type": "URL"
                 },
                 {
@@ -79349,10 +79137,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "marketplace.firstdata.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "qa-marketplace.firstdata.com",
                     "type": "URL"
                 },
@@ -79390,10 +79174,6 @@
                 },
                 {
                     "identifier": "prod.emea.eventgateway.fiservapp.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "loans.approvedfast.com",
                     "type": "URL"
                 },
                 {
@@ -79601,10 +79381,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fintechtestfiserv.okiapp.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "onlinebanking.mynycb.com-dr",
                     "type": "URL"
                 },
@@ -79689,23 +79465,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstfoundationbank.onlinebank.com-dr",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "m.comerica.com-dr",
-                    "type": "URL"
-                },
-                {
                     "identifier": "richchannel1.comerica.com-dr",
                     "type": "URL"
                 },
                 {
                     "identifier": "richchannel2.comerica.com-dr",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "m.comerica.com",
                     "type": "URL"
                 },
                 {
@@ -79765,10 +79529,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "felicianabank.architect-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firststatebankforsyth.architect-cert.fiservapps.com",
                     "type": "URL"
                 },
@@ -79793,10 +79553,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fsbiowa.architect-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fsbwaupaca.architect-cert.fiservapps.com",
                     "type": "URL"
                 },
@@ -79817,19 +79573,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "havanabank.architect-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hcbanks.architect-cert.fiservapps.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "heritagebankmn.architect-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hometrustbank.architect-cert.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -80021,10 +79769,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://felicianabank.onlinebank.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstfoundationbank.onlinebank.com",
                     "type": "URL"
                 },
@@ -80050,10 +79794,6 @@
                 },
                 {
                     "identifier": "fsbankmctn.onlinebank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsbiowa.onlinebank.com",
                     "type": "URL"
                 },
                 {
@@ -80549,26 +80289,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://manasquanbank.cardhub-cat2.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://manasquanbank.cardhub-udp1.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://manasquanbank.cardhub-udp2.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://manasquanbank.cardhub-udp3.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://manasquanbank.cardhub-udp4.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://mconsole-cat2.fiservapps.com",
                     "type": "URL"
                 },
@@ -80681,10 +80401,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "gpsach.fiserv.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "login.carat-platforms.fiserv.com",
                     "type": "URL"
                 },
@@ -80793,10 +80509,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "lakelandcert.olbanking.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "wfbcert.olbanking.com",
                     "type": "URL"
                 },
@@ -80826,18 +80538,6 @@
                 },
                 {
                     "identifier": "earchive7.ddsservicebureau.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fd-pfac-api.technologi.co.uk",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fd-pfac-config.technologi.co.uk",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fd-pfac-portal.technologi.co.uk",
                     "type": "URL"
                 },
                 {
@@ -81073,10 +80773,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://manasquanbank.cardhub.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://ov-prod.fiservapps.com",
                     "type": "URL"
                 },
@@ -81177,10 +80873,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "gatecity.architect-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hamlerstatebank.architect-cert.fiservapps.com",
                     "type": "URL"
                 },
@@ -81245,22 +80937,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "girlscouts.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hsbc-servicing-card.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hsbc-servicing-loan.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "icssales.firstdata.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://imsats.firstdata.com",
                     "type": "URL"
                 },
@@ -81269,35 +80945,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "jlp-servicing-card.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "jlp-servicing-loan.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "keybanksales.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://mainstreetinsights.firstdata.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "mc.emea.3ds.firstdata.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "merchantportal-magnati.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mtls-preprod-accounts.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mtls.accounts.firstdata.com",
                     "type": "URL"
                 },
                 {
@@ -81542,10 +81194,6 @@
                 },
                 {
                     "identifier": "clover.technologi.co.uk",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-api-v2.technologi.co.uk",
                     "type": "URL"
                 },
                 {
@@ -81989,10 +81637,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://insights.clover.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "int.catalyst.clover.com",
                     "type": "URL"
                 },
@@ -82405,10 +82049,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://merchantservicecenter-cat.fiservapp.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "preprod.emea.boarding.fiservapp.com",
                     "type": "URL"
                 },
@@ -82449,10 +82089,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "merchant.boarding.elavon.pl",
-                    "type": "URL"
-                },
-                {
                     "identifier": "merchant.creditagricole.elavon.pl",
                     "type": "URL"
                 },
@@ -82490,10 +82126,6 @@
                 },
                 {
                     "identifier": "mop.telecash.de",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://minnesota.etaxes.state.mn.us",
                     "type": "URL"
                 },
                 {
@@ -82566,10 +82198,6 @@
                 },
                 {
                     "identifier": "accountmanager.firstdatams.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstswitch-61.firstdataclients.com",
                     "type": "URL"
                 },
                 {
@@ -82666,10 +82294,6 @@
                 },
                 {
                     "identifier": "test102.ipg-online.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://insightics.com",
                     "type": "URL"
                 },
                 {
@@ -82825,10 +82449,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "merchant.boarding.elavon.ie",
-                    "type": "URL"
-                },
-                {
                     "identifier": "asdabusiness.com",
                     "type": "URL"
                 },
@@ -82953,10 +82573,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "merchant.santander.elavon.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "bws.valuelink.biz",
                     "type": "URL"
                 },
@@ -83066,14 +82682,6 @@
                 },
                 {
                     "identifier": "vr.telecash.shop",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fdmobileservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "midautomation.fdmobileservices.com",
                     "type": "URL"
                 },
                 {
@@ -83281,10 +82889,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "kohls.fdecs.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "kohlsuat.fdecs.com",
                     "type": "URL"
                 },
@@ -83338,10 +82942,6 @@
                 },
                 {
                     "identifier": "ess.fddatachoice.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fdservicepointmanager.com",
                     "type": "URL"
                 },
                 {
@@ -83437,10 +83037,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "gogreen.navient.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "tcpaupdate.navient.com",
                     "type": "URL"
                 },
@@ -83530,10 +83126,6 @@
                 },
                 {
                     "identifier": "enterpriseadsso.navient.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fms.navient.com",
                     "type": "URL"
                 },
                 {
@@ -83650,10 +83242,6 @@
                 },
                 {
                     "identifier": "smartview.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mediaserver.cm.navient.com",
                     "type": "URL"
                 },
                 {
@@ -83825,18 +83413,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://fiserv-udp1-ondot-ch.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fiserv-udp1-ondot-cv.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fiserv-udp2-ondot-cv.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://ondot-s-prod.fiservmobileapps.com",
                     "type": "URL"
                 },
@@ -83985,26 +83561,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://marketplace-admin-uat.portalfd.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://marketplace-admin.portalfd.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://marketplace-sicredi-uat.portalfd.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://marketplace-uat.portalfd.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://marketplace.portalfd.com.br",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://business-apps-qa.creditcardservices.com",
                     "type": "URL"
                 },
@@ -84133,10 +83689,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mcd.softwareexpress.com.br",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://monit-web.softwareexpress.com.br",
                     "type": "URL"
                 },
@@ -84249,7 +83801,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://chargebackcentral.fiservapps.com",
+                    "identifier": "chargebackcentral.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -84530,14 +84082,6 @@
                 },
                 {
                     "identifier": "http://billdetail.getbills.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://hv.getbills.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://m3.ihost.getbills.com",
                     "type": "URL"
                 },
                 {
@@ -84938,22 +84482,6 @@
                 },
                 {
                     "identifier": "p3-cert.captcha-billpay.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "intqa.fta.popmoney.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iqamcf.fta.popmoney.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iqarxp.fta.popmoney.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iqasrs.popmoney.com",
                     "type": "URL"
                 },
                 {
@@ -85422,10 +84950,6 @@
                 },
                 {
                     "identifier": "drinlaneservice.checkfreepay.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "inlane.checkfreepay.com",
                     "type": "URL"
                 },
                 {
@@ -86357,263 +85881,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "felicianabank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ffbla.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ffsavings.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ffsb-nc.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ffsbweb.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fgbusa.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fibaurora.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fidfedsl.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstbankofpike.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfarmbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfeddelta.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfederalbanking.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfederalmascoutah.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfederalofgreene.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstharrison.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firststateks.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstwithus.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fiserv-ecomhosting.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "fiservecomhosting.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmb-bank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmb1919.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmbms.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbbe.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbbemidji.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbely.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbgiddings.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbgordon.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnblj.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbmn.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbna.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbseiling.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbwford.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fncb.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "frazerbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "freeholdsavingsandloan.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "frontierbk.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsb-online.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsbankmctn.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsbuvalde.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsbwatonga.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ftnb.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ftsbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "gcfcu.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "goldenvalleybank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "gplafcu.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "gratzbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "grundybank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "haddonsavingsbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hancockbankonline.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hcbanks.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hcffcu.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hendersonfederal.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "heritagebank-ky.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hillsborobank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "homebankingco.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "homefedniles.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hometownbanc.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "howardstatebank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "htbnk.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hyperionbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "insouth.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "interamericanbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "intercam.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iowatrustbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iwsb.fiserv-ecomhosting.com",
                     "type": "URL"
                 },
                 {
@@ -86665,15 +85937,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "haddonsavingsbank.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "grundybank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "gplafcu.com",
                     "type": "URL"
                 },
                 {
@@ -86689,19 +85953,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "gcfcu.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "gbbankgroup.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "gaineybusinessbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ftsbank.com",
                     "type": "URL"
                 },
                 {
@@ -86709,15 +85961,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fsbwatonga.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fsbuvalde.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsbil.com",
                     "type": "URL"
                 },
                 {
@@ -86725,27 +85969,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fsbctx.bank",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fsbankmctn.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "fsb-tc.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "frontierbk.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "friendbank.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "frazerbank.com",
                     "type": "URL"
                 },
                 {
@@ -86769,15 +85997,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fnbna.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fnbmn.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbmn.bank",
                     "type": "URL"
                 },
                 {
@@ -86789,43 +86009,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fnbgiddings.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbetx.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fnbely.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "fnbdarlington.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbberryville.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbbemidji.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fnbbe.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fnb-ks.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmub.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmub.bank",
                     "type": "URL"
                 },
                 {
@@ -86837,31 +86025,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fmbkendall.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fmbanksylvania.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "fmbankmc.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmb1919.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fmb1919.bank",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fmb-bank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "florasavings.com",
                     "type": "URL"
                 },
                 {
@@ -86885,15 +86053,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firststatebankforsyth.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firststatebank.biz",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstpekinsavings.com",
                     "type": "URL"
                 },
                 {
@@ -86905,10 +86065,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstharrison.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstgeneralbank.com",
                     "type": "URL"
                 },
@@ -86917,19 +86073,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstfedhuntington.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfederalwashington.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstfederalofgreene.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstfederalmascoutah.com",
                     "type": "URL"
                 },
                 {
@@ -86953,19 +86097,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstcitizensww.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstchoice.bank",
                     "type": "URL"
                 },
                 {
                     "identifier": "firstchatham.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "firstbankofpike.com",
                     "type": "URL"
                 },
                 {
@@ -86977,31 +86113,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstbankblueearth.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstbank-ok.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "fibaurora.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hamlinbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hcbanks.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hcffcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "heartlandtristate.bank",
                     "type": "URL"
                 },
                 {
@@ -87014,10 +86130,6 @@
                 },
                 {
                     "identifier": "heritagebank-ky.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "heritagebankandtrust.com",
                     "type": "URL"
                 },
                 {
@@ -87089,10 +86201,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "interamericanbank.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "intercam.com.pr",
                     "type": "URL"
                 },
@@ -87105,14 +86213,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "iowatrustbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "islandfcu.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "iwsb.com",
                     "type": "URL"
                 },
@@ -87121,87 +86221,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "kbrhfcu.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "kearneytrust.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "kfsavings.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "kingstonnationalbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lamesanb.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "landmarkbankla.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "laonastatebank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lbandt.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lcbankmn.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lcfederal.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "libertybk.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "loyaltrustbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "machiassavings.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "marioncenterbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "marioncountysavings.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mcbt.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mcnbbanks.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "megabankusa.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "katahdintrust.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "kbrhfcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "kearneytrust.com",
                     "type": "URL"
                 },
                 {
@@ -87225,19 +86249,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "lcbankmn.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lcfederal.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "lemontnationalbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "libertybk.com",
                     "type": "URL"
                 },
                 {
@@ -87245,55 +86257,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "loyaltrustbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lubbocknational.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lumbeeguarantybank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "machiassavings.bank",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "machiassavings.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "magbank.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "marioncenterbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "marioncountysavings.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mauchchunktrust.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "memberschoicecu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "memberschoicecu.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "megabankusa.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "medorabank.com",
                     "type": "URL"
                 },
                 {
@@ -87313,39 +86281,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "mcbt.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "mcbanktx.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "merchantsnat.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "meritbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "merrougebank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "miamisavingsbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "miltonsavingsbank.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "monroesavings.fiserv-ecomhosting.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mutualsavings.fiserv-ecomhosting.com",
                     "type": "URL"
                 },
                 {
@@ -87377,35 +86313,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "merchantsbankrugby.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "merchantsnat.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "merco.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "meritbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "merrougebank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "method.bank",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "metrophoenixbank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "miamisavings.bank",
                     "type": "URL"
                 },
                 {
@@ -87485,31 +86397,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "mpefcu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "moundcitybank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "morgantonsavings.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "montereycountybank.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "monroesavings.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "mnbsf.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "midlands-mortgage.com",
                     "type": "URL"
                 },
                 {
@@ -88525,10 +87417,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fr-retail-business-online-mp-test.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "retailonline-cert.fiservapps.com",
                     "type": "URL"
                 },
@@ -88558,22 +87446,6 @@
                 },
                 {
                     "identifier": "webdesign.fiserv.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://gowandafcu.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://maldenfcu.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://medpro.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://midcarolinacu.online-cu.com",
                     "type": "URL"
                 },
                 {
@@ -88649,31 +87521,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "m.flagstar.com-dr",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "m.dcbk.org-dr",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "m.dcbk.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "m-cert.comerica.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "next.vystarcu.org",
                     "type": "URL"
                 },
                 {
                     "identifier": "rm.vystarcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ibank.pcs-sd.net",
                     "type": "URL"
                 },
                 {
@@ -88690,10 +87542,6 @@
                 },
                 {
                     "identifier": "coprod.acfcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "m.flagstar.com",
                     "type": "URL"
                 },
                 {
@@ -88734,14 +87582,6 @@
                 },
                 {
                     "identifier": "test.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mblbiz-asp-external-cert.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mblbiz-asp-external-prod.fiservmobileapps.com",
                     "type": "URL"
                 },
                 {
@@ -88822,14 +87662,6 @@
                 },
                 {
                     "identifier": "loancierge.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mo.loancierge.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mobile-vycu-cert.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -89005,14 +87837,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fsucuonlinetest.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fsucuonline.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "cert.fsbctx.com",
                     "type": "URL"
                 },
@@ -89026,10 +87850,6 @@
                 },
                 {
                     "identifier": "cert.earthmovercu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mrp1.cunetbranch.com",
                     "type": "URL"
                 },
                 {
@@ -89054,10 +87874,6 @@
                 },
                 {
                     "identifier": "myonline.sharefax.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "live.merckcu.com",
                     "type": "URL"
                 },
                 {
@@ -89969,10 +88785,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://kukuiline.online-cu.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "online.oceanfinancial.org",
                     "type": "URL"
                 },
@@ -90126,18 +88938,6 @@
                 },
                 {
                     "identifier": "achcpo-uat.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "loancomplete-dr.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "loancomplete-sit.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "loancomplete-uat.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -90429,14 +89229,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstpriorityfcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fpdcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "frionacu.vbwebservices.com",
                     "type": "URL"
                 },
@@ -90453,10 +89245,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "greenbeltfcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "gsafcu.vbwebservices.com",
                     "type": "URL"
                 },
@@ -90465,15 +89253,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hamakuafcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "harmonyfcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "harrisoncountyfcu.vbwebservices.com",
                     "type": "URL"
                 },
                 {
@@ -90497,19 +89277,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hsefcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "ilafcu.vbwebservices.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "iroqbank.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "jppcu.vbwebservices.com",
                     "type": "URL"
                 },
                 {
@@ -90537,14 +89309,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "lgecu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mallardbaycu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "manistiquefederal.vbwebservices.com",
                     "type": "URL"
                 },
@@ -90553,19 +89317,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "mauifcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "mccunj.vbwebservices.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "medisysefcu.vbwebservices.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "membersffcu.vbwebservices.com",
                     "type": "URL"
                 },
                 {
@@ -90665,10 +89421,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "moecu.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "mobgecu.org",
                     "type": "URL"
                 },
@@ -90682,10 +89434,6 @@
                 },
                 {
                     "identifier": "memorialcreditunion.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "membersffcu.org",
                     "type": "URL"
                 },
                 {
@@ -90709,18 +89457,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "lowercolumbiafcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lowercolumbiafcu.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lowercolumbiafcu.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "lexpccu.com",
                     "type": "URL"
                 },
@@ -90730,14 +89466,6 @@
                 },
                 {
                     "identifier": "lesfcu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lclfcu.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lclfcu.com",
                     "type": "URL"
                 },
                 {
@@ -90801,23 +89529,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "harrisoncountyfcu.net",
-                    "type": "URL"
-                },
-                {
                     "identifier": "harmonyfcu.org",
                     "type": "URL"
                 },
                 {
                     "identifier": "heafcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hamakuafcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "greenbeltfcu.com",
                     "type": "URL"
                 },
                 {
@@ -92229,10 +90945,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstadvantagebank.caaweb.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstamtrust.caaweb.com",
                     "type": "URL"
                 },
@@ -92297,23 +91009,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstrepublic.caaweb.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firstsource.caaweb.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "firstwomensbank.caaweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "flagstar.caaweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "flagstaruat.caaweb.com",
                     "type": "URL"
                 },
                 {
@@ -92429,10 +91129,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "htbwi.caaweb.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hyperionbank.caaweb.com",
                     "type": "URL"
                 },
@@ -92449,15 +91145,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "inbbank.caaweb.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "independentbank.caaweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "investorscommunitybank.caaweb.com",
                     "type": "URL"
                 },
                 {
@@ -92486,10 +91174,6 @@
                 },
                 {
                     "identifier": "leaderbank.caaweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "legendsbank.caaweb.com",
                     "type": "URL"
                 },
                 {
@@ -93013,19 +91697,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "levelonebank.caaweb.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "libertynational.caaweb.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "localitybank.caaweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "lutherburbanksavings.caaweb.com",
                     "type": "URL"
                 },
                 {
@@ -93094,10 +91770,6 @@
                 },
                 {
                     "identifier": "montecitobank.caaweb.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mtmckinleybank.caaweb.com",
                     "type": "URL"
                 },
                 {
@@ -95157,14 +93829,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "join-admin.mauicountyfcu.org",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "join.mauicountyfcu.org",
-                    "type": "URL"
-                },
-                {
                     "identifier": "join.alecu.org",
                     "type": "URL"
                 },
@@ -97085,10 +95749,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "fechoice-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "firecu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -97305,15 +95965,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hamakuafcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "haninfcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hawaiifirstfcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -97366,10 +96018,6 @@
                 },
                 {
                     "identifier": "marquettecomm-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mauiefcu-dn.financial-net.com",
                     "type": "URL"
                 },
                 {
@@ -97565,14 +96213,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hamakuaccfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hamakuafcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hancockfcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -97610,10 +96250,6 @@
                 },
                 {
                     "identifier": "mainemedia-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mcmfcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -97953,27 +96589,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "mecu-uat.streamlendvelocity.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mecu.streamlendvelocity.net",
-                    "type": "URL"
-                },
-                {
                     "identifier": "metabank-uat.streamlendvelocity.net",
                     "type": "URL"
                 },
                 {
                     "identifier": "metabank.streamlendvelocity.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mmfcu-uat.streamlendvelocity.net",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mmfcu.streamlendvelocity.net",
                     "type": "URL"
                 },
                 {
@@ -98237,10 +96857,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "loancomplete.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "login-portal-dr.fiservapps.com",
                     "type": "URL"
                 },
@@ -98425,10 +97041,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstrepublic.ft1.cashedge.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fiservcompass.fta.cashedge.com",
                     "type": "URL"
                 },
@@ -98442,10 +97054,6 @@
                 },
                 {
                     "identifier": "hsbc.oao.cashedge.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "intqafn53.ft1.cashedge.com",
                     "type": "URL"
                 },
                 {
@@ -98529,86 +97137,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "iportalccsmedical.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalconcord.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportaledfund.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalentergy.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalepwu.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalflfarmbureau.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalflfarmbureaumem.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalfrontierlegacy.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalhdfs.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalintegrys.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalirwd.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportallibertymutual.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportallibertynorthwest.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportallibertyutilities.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportallvvwd.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalmsfbins.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalnegas.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalnissanmac.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalpeoplesenergy.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalpowertocare.billmatrix.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "iportalpse.billmatrix.com",
                     "type": "URL"
                 },
@@ -98629,10 +97157,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "iportalsouthernfb.billmatrix.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "iportalsouthernlinc.billmatrix.com",
                     "type": "URL"
                 },
@@ -98642,14 +97166,6 @@
                 },
                 {
                     "identifier": "iportalverizoncps.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iportalwestarenergy.billmatrix.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "membershippaymentsncfb.billmatrix.com",
                     "type": "URL"
                 },
                 {
@@ -98686,10 +97202,6 @@
                 },
                 {
                     "identifier": "iqafrbtn.ft1.cashedge.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iqapci.agg.cashedge.com",
                     "type": "URL"
                 },
                 {
@@ -99009,10 +97521,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "firstrepublic.fta.popmoney.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fiserv.fta.popmoney.com",
                     "type": "URL"
                 },
@@ -99210,10 +97718,6 @@
                 },
                 {
                     "identifier": "firstbank.apps-uat.ilendx.tech",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "localfirstbank-account-opening.ilendx.tech",
                     "type": "URL"
                 },
                 {
@@ -99509,10 +98013,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "login-newalbinsavingsbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "testbillpay1.pscufs.com",
                     "type": "URL"
                 },
@@ -99690,14 +98190,6 @@
                 },
                 {
                     "identifier": "originate.reliabank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "horizonsfcu.online-cu.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "fiserv-udp2-ondot-ch.fiservmobileapps.com",
                     "type": "URL"
                 },
                 {
@@ -99949,10 +98441,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mftuat.merchantportal.com.br",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://govtime2.firstdata.com",
                     "type": "URL"
                 },
@@ -100186,10 +98674,6 @@
                 },
                 {
                     "identifier": "http://fraudpreventiontest-mx.fiservapp.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://int.api.ipg-online.com",
                     "type": "URL"
                 },
                 {
@@ -100482,14 +98966,6 @@
                 },
                 {
                     "identifier": "http://in-ssoca-cat.fiservapp.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://in-ssowp-cat.fiservapp.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://merchantservicecenter.fiservapp.com",
                     "type": "URL"
                 },
                 {
@@ -100802,18 +99278,6 @@
                 },
                 {
                     "identifier": "http://fsvcarat-proxy.softwareexpress.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsvportal.softwareexpress.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsvportaladm.softwareexpress.com.br",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsvportaladmsc.softwareexpress.com.br",
                     "type": "URL"
                 },
                 {
@@ -101425,10 +99889,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "iowaheartland-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "cert-api-payments-exchange-rtp.fiservapps.com",
                     "type": "URL"
                 },
@@ -101498,10 +99958,6 @@
                 },
                 {
                     "identifier": "motionfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mrcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -101985,10 +100441,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "jc-panda.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "fswidget.finlocker.com",
                     "type": "URL"
                 },
@@ -102106,10 +100558,6 @@
                 },
                 {
                     "identifier": "http://mcycle-dq.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fraudmanagement.firstdataclients.com",
                     "type": "URL"
                 },
                 {
@@ -102245,19 +100693,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://gdsdownloadscert.firstdata.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://gdsdownloadstest.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://gdsprod.firstdata.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://gdstest.firstdata.com",
                     "type": "URL"
                 },
                 {
@@ -102302,358 +100738,6 @@
                 },
                 {
                     "identifier": "http://brazosbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://felicianabank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://firstbankhampton.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://firstfederalofgreene.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://firstfederalwashington.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fmbankmc.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fmbanknym.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fmstatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fnbob.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fnbord.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fnnbbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://franklinbnk.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://frederikabank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsb-britt.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsbmalta.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsb-nashua.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsbwaupaca.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fsbwc.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://genoacb.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://grantcountystatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://hamlerstatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://hcbanks.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://heartlandtristatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://homefederalne.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://hometrustbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://huntingtonfederal.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://idemo.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://idemo2.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://identity-panda-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://identity-panda-uat.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://iroqbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://kcnb.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://laonastatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://la-panda.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://leadbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://leaderbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://lemontnationalbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login.1stbankseaisle.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-1stcommunitybanks.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-cert.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-cert-s.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-dev-s.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-idemo-s.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-s.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-test.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-test-s.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-annastate.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bankobc.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bankofclarkebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bankofgueydan.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bankofhemet.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bankofstronghurst.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bankssb.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-bndndgov.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-brazosbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-buckleystatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-campusstatebank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-citizensbt.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-citizensbyhalia.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-citizenssavingsbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-abiliti-dev.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-cnbmonmouth.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-cornerstonebankia.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-ebankstarbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-farmersstatebankwa.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-firstbankhampton.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-firstfederalwashington.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-homefederalne.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-idemo2.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://loginidp.firststbk.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-la-panda.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-leadbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-merchantsbankrugby.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-myfmbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-our1stbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-ourheritage.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-peoplesgraceville.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-pioneercommunitybank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-portaustinbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-quaintoak.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-riddellonline.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-sbcpbank.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://login-unitedbank4u.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://lonestarwtx.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://longviewsb.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://makeitmcb.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://merchantsbankrugby.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://mobile-g1m-cert.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -102869,10 +100953,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://login-farmersbankks.onlinesecurebanking.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "test-www.wgiftcard.com",
                     "type": "URL"
                 },
@@ -102898,14 +100978,6 @@
                 },
                 {
                     "identifier": "http://www-dr.predigy.firstdataclients.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fse.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fset.fiservmobileapps.com",
                     "type": "URL"
                 },
                 {
@@ -103029,14 +101101,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mobilemoney.fiserv.com/customermgr/",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "iqa.popmoney.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "popmoney.com",
                     "type": "URL"
                 },
@@ -103149,10 +101213,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://moneytransfer.moneynetwork.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "walmart.everywherepaycard.com",
                     "type": "URL"
                 },
@@ -103165,7 +101225,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://aubonpain.prepaidaccess.com",
+                    "identifier": "aubonpain.prepaidaccess.com",
                     "type": "URL"
                 },
                 {
@@ -103177,7 +101237,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://chick-fil-a.prepaidaccess.com",
+                    "identifier": "chick-fil-a.prepaidaccess.com",
                     "type": "URL"
                 },
                 {
@@ -103213,7 +101273,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mcdonalds-mobile.prepaidaccess.com",
+                    "identifier": "mcdonalds-mobile.prepaidaccess.com",
                     "type": "URL"
                 },
                 {
@@ -103225,7 +101285,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://sogocashcard.prepaidaccess.com",
+                    "identifier": "sogocashcard.prepaidaccess.com",
                     "type": "URL"
                 },
                 {
@@ -103285,7 +101345,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://www2.prepaidaccess.com",
+                    "identifier": "www2.prepaidaccess.com",
                     "type": "URL"
                 },
                 {
@@ -103401,14 +101461,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mo.wirexchange.goxroads.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://mo.wirexchangeservices.goxroads.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://model.wirexchange.goxroads.com",
                     "type": "URL"
                 },
@@ -103497,10 +101549,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://firstapacdr.firstdata.com.au",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://connect-aus.fiservapp.com",
                     "type": "URL"
                 },
@@ -103586,10 +101634,6 @@
                 },
                 {
                     "identifier": "http://logos-checkfreenext-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://fscs-sc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -103749,10 +101793,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://fiserv.oneportal24.firstdata.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://prepaidaccount.com",
                     "type": "URL"
                 },
@@ -103782,10 +101822,6 @@
                 },
                 {
                     "identifier": "http://drolpss.firstdata.com.au",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://masterconsultas.com.ar",
                     "type": "URL"
                 },
                 {
@@ -103945,10 +101981,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://loandocumentexchange.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://secureshareportal.com",
                     "type": "URL"
                 },
@@ -103966,10 +101998,6 @@
                 },
                 {
                     "identifier": "help.accessadvantage.galaxy.app.fiserv.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://mo.accessadvantage.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -104249,10 +102277,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://flagstar.onlinebank.com-dr",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://fmbanksylvania.onlinebank.com",
                     "type": "URL"
                 },
@@ -104298,10 +102322,6 @@
                 },
                 {
                     "identifier": "http://fsb-traer.onlinebank.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://gatecity-architect-cert.fiservmobileapps.com",
                     "type": "URL"
                 },
                 {
@@ -104430,10 +102450,6 @@
                 },
                 {
                     "identifier": "http://montecito.architect-cert.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://mqa.flagstar.com",
                     "type": "URL"
                 },
                 {
@@ -105057,10 +103073,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "http://mrcu-dn.financial-net.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "http://prescottfcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -105125,14 +103137,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "int-api-fiservapps-euw3.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-api-fiservapps-sae1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "int-api-fiservapps-usc1.ns1.fiservapis.com",
                     "type": "URL"
                 },
@@ -105141,19 +103145,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "int-apigee-fiservapps-ause1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "uat-cit-maxcloud.fiservapp.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-euw3.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-sae1.ns1.fiservapis.com",
                     "type": "URL"
                 },
                 {
@@ -105170,18 +103162,6 @@
                 },
                 {
                     "identifier": "fiserv.rightanswers.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-gp-api-fiservapps-ause1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-gp-api-fiservapps-euw3.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-gp-api-fiservapps-sae1.ns1.fiservapis.com",
                     "type": "URL"
                 },
                 {
@@ -105538,18 +103518,6 @@
                 },
                 {
                     "identifier": "test-apigee-fiservapps-usc1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "ipayment.rightanswers.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "micamp.rightanswers.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "msiep.rightanswers.com",
                     "type": "URL"
                 },
                 {
@@ -106165,23 +104133,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "hccu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "hccuonline-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "hcuonline-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "heafcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "highwayfcu.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -106205,10 +104161,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "iowaheartland-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "ivcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
@@ -106218,14 +104170,6 @@
                 },
                 {
                     "identifier": "kahukufcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "kpefcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "laewcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -106257,15 +104201,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "lvupfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "manvillefcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mckeesportbfcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -106286,10 +104222,6 @@
                 },
                 {
                     "identifier": "metlfcu-dc.cert.fec-dc.fiservapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mmefcu-dc.cert.fec-dc.fiservapps.com",
                     "type": "URL"
                 },
                 {
@@ -107657,10 +105589,6 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "in-ssowp.fiservapp.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "ssowp.fiservapp.com",
                     "type": "URL"
                 },
@@ -107978,26 +105906,6 @@
                 },
                 {
                     "identifier": "int-api-firstdata-edge-use4.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-edge-ause1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-edge-euw3.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-edge-sae1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-edge-usc1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-apigee-fiservapps-edge-use4.ns1.fiservapis.com",
                     "type": "URL"
                 },
                 {
@@ -108757,23 +106665,7 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "int-api-firstdata-ause1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-api-firstdata-euw3.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-api-firstdata-sae1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "int-api-firstdata-usc1.ns1.fiservapis.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "int-api-fiservapps-ause1.ns1.fiservapis.com",
                     "type": "URL"
                 },
                 {
@@ -112549,23 +110441,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "heimdall.fiserv.io",
-                    "type": "URL"
-                },
-                {
                     "identifier": "prod.dbp.cdn.fiservapps.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "vbntest.fiserv.io",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "morasp-az-lowers-web-cm-s.fiservmobileapps.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "morasp-az-lowers-web-iss-s.fiservmobileapps.com",
                     "type": "URL"
                 },
                 {
@@ -114601,23 +112481,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "filesdev25.dev.clover.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "filesdev26.dev.clover.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "filesdev3.dev.clover.com",
                     "type": "URL"
                 },
                 {
                     "identifier": "filesdev5.dev.clover.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "filesdev7.dev.clover.com",
                     "type": "URL"
                 },
                 {
@@ -114641,35 +112509,11 @@
                     "type": "URL"
                 },
                 {
-                    "identifier": "filesstg4.dev.clover.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "filesstg6.dev.clover.com",
                     "type": "URL"
                 },
                 {
-                    "identifier": "internal-dev2.dev.clover.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "json-rpc.6320szhmyx49218kdnadbmsip.blockchainnodeengine.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "json-rpc.8p6sepzyppmfh5jlj08uywuhe.blockchainnodeengine.com",
-                    "type": "URL"
-                },
-                {
                     "identifier": "kubeflow.endpoints.byond-infinity-platform.cloud.goog",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mc.6320szhmyx49218kdnadbmsip.blockchainnodeengine.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "mc.8p6sepzyppmfh5jlj08uywuhe.blockchainnodeengine.com",
                     "type": "URL"
                 },
                 {
@@ -115434,10 +113278,6 @@
                 },
                 {
                     "identifier": "1star.businesstrack.com",
-                    "type": "URL"
-                },
-                {
-                    "identifier": "http://govone.com/pador",
                     "type": "URL"
                 },
                 {
@@ -116439,6 +114279,10 @@
                 {
                     "identifier": "butterfieldmerchant.oneportal24.com",
                     "type": "URL"
+                },
+                {
+                    "identifier": "fiserv.govone.com",
+                    "type": "URL"
                 }
             ],
             "out_of_scope": [
@@ -116984,10 +114828,6 @@
                 },
                 {
                     "identifier": "Global Payments Inc",
-                    "type": "OTHER"
-                },
-                {
-                    "identifier": "AdvancedMD",
                     "type": "OTHER"
                 },
                 {
@@ -153013,6 +150853,10 @@
                 {
                     "identifier": "https://link.uma.me",
                     "type": "URL"
+                },
+                {
+                    "identifier": "https://www.uma.money",
+                    "type": "URL"
                 }
             ],
             "out_of_scope": [
@@ -157022,7 +154866,7 @@
         "assets": {
             "in_scope": [
                 {
-                    "identifier": "*.audible.*",
+                    "identifier": "*.audible.(TLD)",
                     "type": "OTHER"
                 },
                 {
@@ -157066,6 +154910,10 @@
                 {
                     "identifier": "Affiliate Programs",
                     "type": "OTHER"
+                },
+                {
+                    "identifier": "*.acx.com",
+                    "type": "WILDCARD"
                 }
             ]
         }
@@ -163321,6 +161169,41 @@
             "out_of_scope": [
                 {
                     "identifier": "issue-management.iontrading.com",
+                    "type": "URL"
+                }
+            ]
+        }
+    },
+    {
+        "handle": "wallet_on_telegram",
+        "bounty": 1,
+        "active": 1,
+        "assets": {
+            "in_scope": [
+                {
+                    "identifier": "walletbot.me",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "pay.wallet.tg",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "wallet.tg",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "Crypto infrastructure for cold and hot wallets",
+                    "type": "OTHER"
+                }
+            ],
+            "out_of_scope": [
+                {
+                    "identifier": "wallet.helpscoutdocs.com",
+                    "type": "URL"
+                },
+                {
+                    "identifier": "docs.wallet.tg",
                     "type": "URL"
                 }
             ]
